@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005588a6-f628-464b-9b42-1a6940dcd62d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IntelSysFp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IntelSysFp.iml" afterDir="false" />
-    </list>
+    <list default="true" id="005588a6-f628-464b-9b42-1a6940dcd62d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +64,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="745" />
+    <option name="y" value="-13" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
