@@ -126,7 +126,7 @@ new_test_data = pd.read_csv("data/x_test.csv", header=None).astype(float).values
 
 print("tensorflow performance might be slow, please wait a moment")
 
-
+# 511 total feature
 def create_model():
     model = Sequential()
     model.add(
@@ -146,9 +146,9 @@ pipeline = Pipeline(estimators)
 kfold = StratifiedKFold(n_splits=2, shuffle=True)
 result = cross_val_score(pipeline, new_train_data, y_train, cv=kfold)
 
+print("Results: %.2f% % (%.2f% %)" % (result.mean() * 100, result.std() * 100))
 pipeline = pipeline.fit(new_train_data, y_train)
 predictions = pipeline.predict(new_test_data)
-print("Results: %.2f% % (%.2f% %)" % (result.mean() * 100, result.std() * 100))
 
 number = 1
 
