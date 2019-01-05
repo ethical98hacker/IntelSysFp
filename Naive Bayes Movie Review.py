@@ -23,7 +23,7 @@ plt.show()
 # To remove the common word and count the probability of each word while also doing smoothing
 stopset = set(stopwords.words('english'))
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,
-                             ngram_range=(1, 2))
+                             ngram_range=(1, 3))
 
 # convert train data using vectorizer
 x = vectorizer.fit_transform(train_dataset.txt)
@@ -48,10 +48,11 @@ print("Results: %.2f% % (%.2f% %)" % (model_cv_score.mean() * 100, model_cv_scor
 score = clf.score(x_test, y_test)
 print("Score :", score)
 
-movie_reviews = np.array(["it was a terrible movie",
-                          "something is a nice movie",
-                          "check out this movie, it is a great movie.. worth to watch"])
+movie_reviews = np.array(["this movie is very good",
+                          "this movie is not good",
+                          "this movie is not good at all"])
 
 movie_review_vector = vectorizer.transform(movie_reviews)
+
 print(movie_review_vector)
 print(clf.predict(movie_review_vector))

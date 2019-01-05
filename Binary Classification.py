@@ -4,7 +4,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from sklearn.preprocessing import StandardScaler
 from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
-from sklearn.model_selection import StratifiedKFold, cross_val_score, cross_val_predict
+from sklearn.model_selection import StratifiedKFold, cross_val_score
 
 # To store each words count for a train review
 # Format: dictionary

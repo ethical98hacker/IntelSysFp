@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005588a6-f628-464b-9b42-1a6940dcd62d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie Review Keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie Review Keras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Naive Bayes Movie Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive Bayes Movie Review.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,82 +17,71 @@
     <session id="117755562">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="5" />
           <entry key="md" value="2" />
-          <entry key="py" value="15" />
-          <entry key="txt" value="10" />
+          <entry key="py" value="17" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="15" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="93" />
           <entry key="md" value="69" />
-          <entry key="py" value="5053" />
+          <entry key="py" value="5331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="69" />
           <entry key="PLAIN_TEXT" value="93" />
-          <entry key="Python" value="5053" />
+          <entry key="Python" value="5331" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Binary Classification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="146" column="69" lean-forward="true" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-              <folding>
-                <element signature="e#77#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Movie Review Keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="52" selection-end-column="59" />
+              <folding>
+                <element signature="e#77#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +104,9 @@
       <find>np</find>
       <find>nice</find>
       <find>kf</find>
+      <find>not good</find>
+      <find>like</find>
+      <find>movi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,10 +120,10 @@
         <option value="$PROJECT_DIR$/Naive Bayes.py" />
         <option value="$PROJECT_DIR$/Naive Bayes Davincibook.py" />
         <option value="$PROJECT_DIR$/Naive Bayes using vectorize.py" />
-        <option value="$PROJECT_DIR$/Movie Review Keras.py" />
         <option value="$PROJECT_DIR$/Naive Bayes Movie Review testing.py" />
         <option value="$PROJECT_DIR$/Binary Classification.py" />
         <option value="$PROJECT_DIR$/Naive Bayes Movie Review.py" />
+        <option value="$PROJECT_DIR$/Movie Review Keras.py" />
       </list>
     </option>
   </component>
@@ -145,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +157,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Naive Bayes Movie Review">
+  <component name="RunManager" selected="Python.Movie Review Keras">
     <configuration name="Binary Classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IntelSysFp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,10 +296,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Movie Review Keras" />
         <item itemvalue="Python.Naive Bayes Movie Review" />
         <item itemvalue="Python.Binary Classification" />
         <item itemvalue="Python.Naive Bayes Movie Review testing" />
-        <item itemvalue="Python.Movie Review Keras" />
         <item itemvalue="Python.Naive Bayes using vectorize" />
       </list>
     </recent_temporary>
@@ -322,22 +317,31 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13152677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14672835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6638298" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.38297874" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.24822696" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033045" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,13 +412,25 @@
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary Classification testing.py" />
-    <entry file="file://$PROJECT_DIR$/data/imdb_train.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review testing.py">
+    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review testing.py" />
+    <entry file="file://$PROJECT_DIR$/Binary Classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="-51">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/imdb_train.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="3757">
+          <caret line="221" column="117" selection-start-line="221" selection-start-column="117" selection-end-line="221" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="52" selection-end-column="59" />
           <folding>
             <element signature="e#77#96#0" expanded="true" />
           </folding>
@@ -423,30 +439,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Movie Review Keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="146" column="69" lean-forward="true" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="e#77#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
