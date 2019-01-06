@@ -7,29 +7,31 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import StratifiedKFold, cross_val_score, cross_val_predict
 import numpy as np
-
 # You can comment after running once
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
-
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+# bag of unnecessary word
 stop_words = set(stopwords.words('english'))
 filtered_sentence = []
 
+# read data from files
 train_dataset = pd.read_csv("data/imdb_train.txt", names=['sentiment'])
-# test_dataset = pd.read_csv("data/imdb_test.txt", names=['txt'])
 train_dataset[['sentiment', 'txt']] = train_dataset["sentiment"].str.split(" ", 1, expand=True)
 train_dataset["txt"] = train_dataset["txt"]
 
+# number of top 3000 vocabulary to be used
 vocab_size = 3000
+# number of training data
 batch_size = 10
 
-# define Tokenizer with Vocab Size
+# define Tokenizer with top 3000 vocab
 tokenizer = Tokenizer(num_words=vocab_size, lower=True)
 
+# removing unnecessary words from the review
 for review_sent in train_dataset.txt:
     filtered_sentence_review = ""
     word_tokens = word_tokenize(review_sent)
@@ -39,13 +41,14 @@ for review_sent in train_dataset.txt:
             filtered_sentence_review += " "
     filtered_sentence.append(filtered_sentence_review)
 
+# fit the data to tokenizer
 tokenizer.fit_on_texts(train_dataset.txt)
 
+# convert tokenizer to matrix
 x_train = tokenizer.texts_to_matrix(train_dataset.txt)
-# x_test = tokenizer.texts_to_matrix(test_dataset.txt)
 y_train = train_dataset.sentiment
 
-print(x_train)
+# create model to be used for the classifier
 def create_model():
     model = Sequential()
     model.add(
@@ -56,26 +59,31 @@ def create_model():
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
     return model
 
-
+# pipeline to run several process
 estimators = []
 estimators.append(('standardize', StandardScaler()))
 estimators.append(('mlp', KerasClassifier(build_fn=create_model, epochs=5, batch_size=batch_size)))
 pipeline = Pipeline(estimators)
 
+# define the kfold to be used to check the model accuracy
 kfold = StratifiedKFold(n_splits=2, shuffle=True)
+# store the result of the model accuracy
 result = cross_val_score(pipeline, x_train, y_train, cv=kfold)
 
+# print the model accuracy
+print("Results: %.2f% % (%.2f% %)" % (result.mean() * 100, result.std() * 100))
+
+# input to be predicted
 movie_reviews = np.array(["this movie is very good",
                           "this movie is incredible",
                           "this movie is great"])
 
+# tokenize, fit, and predict the input
 x_test = tokenizer.texts_to_matrix(movie_reviews)
-print(x_test)
 pipeline = pipeline.fit(x_train, y_train)
 predictions = pipeline.predict(x_test)
 
-print("Results: %.2f% % (%.2f% %)" % (result.mean() * 100, result.std() * 100))
-
+#print prediction of the input
 number = 1
 
 for prediction in predictions:
