@@ -2,6 +2,7 @@
 # import nltk
 # nltk.download('stopwords')
 import pandas as pd
+from nltk import word_tokenize
 from nltk.corpus import stopwords
 from sklearn import naive_bayes
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -22,8 +23,12 @@ plt.show()
 
 # To remove the common word and count the probability of each word while also doing smoothing
 stopset = set(stopwords.words('english'))
+
+# to learn that the word something is not useful
+# stopset.add("something")
+
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,
-                             ngram_range=(1, 3))
+                             ngram_range=(1, 1))
 
 # convert train data using vectorizer
 x = vectorizer.fit_transform(train_dataset.txt)
@@ -48,11 +53,12 @@ print("Results: %.2f% % (%.2f% %)" % (model_cv_score.mean() * 100, model_cv_scor
 score = clf.score(x_test, y_test)
 print("Score :", score)
 
-movie_reviews = np.array(["this movie is very good",
-                          "this movie is not good",
-                          "this movie is not good at all"])
+movie_reviews = np.array(["something is very good"])
 
 movie_review_vector = vectorizer.transform(movie_reviews)
-
 print(movie_review_vector)
+word_tokens = word_tokenize(movie_reviews[0])
+filtered_sentence = [w for w in word_tokens if w not in stopset]
+print(filtered_sentence)
 print(clf.predict(movie_review_vector))
+
