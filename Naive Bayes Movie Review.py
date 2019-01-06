@@ -17,14 +17,14 @@ predict_dataset = pd.read_csv("data/imdb_test.txt", names=['txt'])
 train_dataset[['sentiment', 'txt']] = train_dataset["sentiment"].str.split(" ", 1, expand=True)
 train_dataset["txt"] = train_dataset["txt"]
 
-# Showing the data of positive and negative review distribution are equal
-train_dataset.groupby('sentiment').txt.count().plot.bar(ylim=0)
-plt.show()
+# # Showing the data of positive and negative review distribution are equal
+# train_dataset.groupby('sentiment').txt.count().plot.bar(ylim=0)
+# plt.show()
 
 # To remove the common word and count the probability of each word while also doing smoothing
 stopset = set(stopwords.words('english'))
 
-# to learn that the word something is not useful
+# SECTION TO ADD STOPSET
 # stopset.add("something")
 
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,
@@ -53,12 +53,18 @@ print("Results: %.2f% % (%.2f% %)" % (model_cv_score.mean() * 100, model_cv_scor
 score = clf.score(x_test, y_test)
 print("Score :", score)
 
+# The input to be predicted
 movie_reviews = np.array(["something is very good"])
 
+# map the input
 movie_review_vector = vectorizer.transform(movie_reviews)
-print(movie_review_vector)
 word_tokens = word_tokenize(movie_reviews[0])
 filtered_sentence = [w for w in word_tokens if w not in stopset]
+
+# print the probability of each word
+print(movie_review_vector)
+# list of the word in sequence
 print(filtered_sentence)
+# print the prediction
 print(clf.predict(movie_review_vector))
 
