@@ -81,6 +81,7 @@ print("Results: %.2f% % (%.2f% %)" % (result.mean() * 100, result.std() * 100))
 # print prediction of the review
 number = 1
 
+# print predictions
 for prediction in predictions:
     print("Prediction of review ", number, " =", prediction)
     number += 1

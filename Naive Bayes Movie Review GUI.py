@@ -43,7 +43,7 @@ action_with_arg2 = partial(showplot, train_dataset)
 stopset = set(stopwords.words('english'))
 
 # SECTION TO ADD STOPSET
-stopset.add("something")
+# stopset.add("something")
 
 # set the vectorizer
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,

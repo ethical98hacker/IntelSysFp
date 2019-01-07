@@ -25,7 +25,7 @@ train_dataset["txt"] = train_dataset["txt"]
 stopset = set(stopwords.words('english'))
 
 # SECTION TO ADD STOPSET
-# stopset.add("something")
+stopset.add("something")
 
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,
                              ngram_range=(1, 1))
@@ -61,10 +61,12 @@ movie_review_vector = vectorizer.transform(movie_reviews)
 word_tokens = word_tokenize(movie_reviews[0])
 filtered_sentence = [w for w in word_tokens if w not in stopset]
 
+review_dict = ["negative", "positive"]
+
 # print the probability of each word
 print(movie_review_vector)
 # list of the word in sequence
 print(filtered_sentence)
-# print the prediction
-print(clf.predict(movie_review_vector))
+# print one prediction 1 for positive and 0 for negative
+print(review_dict[int(clf.predict(movie_review_vector))])
 
