@@ -58,7 +58,7 @@ score = clf.score(x_test, y_test)
 print("Score :", score)
 
 # The input to be predicted
-movie_reviews = np.array(["something is very good"])
+movie_reviews = np.array(["it is interesting"])
 
 # map the input
 movie_review_vector = vectorizer.transform(movie_reviews)

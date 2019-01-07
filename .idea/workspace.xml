@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="005588a6-f628-464b-9b42-1a6940dcd62d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Naive Bayes Movie Review GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive Bayes Movie Review GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naive Bayes Movie Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive Bayes Movie Review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/review.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/review.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
     <session id="117755562">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -27,69 +30,54 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="5" />
+          <entry key="csv" value="7" />
           <entry key="md" value="2" />
-          <entry key="py" value="38" />
-          <entry key="txt" value="14" />
+          <entry key="py" value="47" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="5" />
+          <entry key="CSV" value="7" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="38" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="150" />
           <entry key="md" value="69" />
-          <entry key="py" value="10093" />
-          <entry key="txt" value="19" />
+          <entry key="py" value="10168" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="69" />
-          <entry key="PLAIN_TEXT" value="169" />
-          <entry key="Python" value="10093" />
+          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="Python" value="10168" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+            <state relative-caret-position="187">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/imdb_train.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="420">
-              <caret line="939" column="205" selection-end-line="961" selection-end-column="1099" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/review.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16275" />
           </provider>
         </entry>
       </file>
@@ -142,19 +130,20 @@
         <option value="$PROJECT_DIR$/Movie Review Keras.py" />
         <option value="$PROJECT_DIR$/Movie Review Keras testing 1.py" />
         <option value="$PROJECT_DIR$/Naive Bayes GUI.py" />
-        <option value="$PROJECT_DIR$/Movie Review Keras using Tokenizer.py" />
         <option value="$PROJECT_DIR$/data/Movie Review Keras countVectorizer GUI.py" />
-        <option value="$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py" />
-        <option value="$PROJECT_DIR$/Naive Bayes Movie Review.py" />
+        <option value="$PROJECT_DIR$/Movie Review Keras using Tokenizer.py" />
         <option value="$PROJECT_DIR$/Movie Review Keras using countVectorizer.py" />
+        <option value="$PROJECT_DIR$/data/review.txt" />
+        <option value="$PROJECT_DIR$/Naive Bayes Movie Review.py" />
+        <option value="$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py" />
         <option value="$PROJECT_DIR$/Naive Bayes Movie Review GUI.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1205" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -164,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,9 +313,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Naive Bayes Movie Review GUI" />
-        <item itemvalue="Python.Movie Review Keras using countVectorizer" />
-        <item itemvalue="Python.Naive Bayes Movie Review" />
         <item itemvalue="Python.Movie Review Keras countVectorizer GUI (1)" />
+        <item itemvalue="Python.Naive Bayes Movie Review" />
+        <item itemvalue="Python.Movie Review Keras using countVectorizer" />
         <item itemvalue="Python.Movie Review Keras countVectorizer GUI" />
       </list>
     </recent_temporary>
@@ -354,15 +343,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="964" height="830" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16126901" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32901832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32568148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,19 +394,6 @@
     <entry file="file://$PROJECT_DIR$/data/wine.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/davincibook.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="811" column="61" lean-forward="true" selection-start-line="811" selection-start-column="61" selection-end-line="811" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/x_test.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/imdb_test.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Binary Classification testing.py" />
     <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review Testing.py" />
     <entry file="file://$PROJECT_DIR$/Binary Classification.py">
@@ -435,54 +410,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie Review Keras using countVectorizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie Review Keras using Tokenizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="25" column="120" selection-start-line="25" selection-start-column="120" selection-end-line="25" selection-end-column="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py">
+    <entry file="file://$PROJECT_DIR$/Movie Review Keras using countVectorizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="100" column="66" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
+        <state relative-caret-position="136">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/imdb_train.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="-40">
           <caret line="939" column="205" selection-end-line="961" selection-end-column="1099" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review GUI.py">
+    <entry file="file://$PROJECT_DIR$/data/imdb_test.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-17601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/x_test.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/x_train.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/davincibook.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="811" column="61" lean-forward="true" selection-start-line="811" selection-start-column="61" selection-end-line="811" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie Review Keras countVectorizer GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="120" lean-forward="true" selection-start-line="35" selection-start-column="120" selection-end-line="35" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/review.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16275" />
+        <state relative-caret-position="306">
+          <caret line="1062" column="13" lean-forward="true" selection-start-line="1062" selection-start-column="13" selection-end-line="1062" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Naive Bayes Movie Review GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

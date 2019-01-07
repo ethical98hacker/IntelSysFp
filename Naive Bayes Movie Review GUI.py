@@ -23,12 +23,12 @@ nbStd = IntVar()
 
 # train data_set that has been modified, example: user said that interesting is a positive word but it predicted wrong
 # so user can add the data to review.txt and uncomment this code
-# train_dataset = pd.read_csv("data/review.txt", names=['sentiment'], encoding = "ISO-8859-1")
+train_dataset = pd.read_csv("data/review.txt", names=['sentiment'], encoding = "ISO-8859-1")
 
 # NAIVE BAYES
 # Sentiment -> positive = 1; negative = 0
 # to separate the class and the features
-train_dataset = pd.read_csv("data/imdb_train.txt", names=['sentiment'])  # comment this if you want to use modified data
+# train_dataset = pd.read_csv("data/imdb_train.txt", names=['sentiment'])  # comment this if you want to use modified data
 predict_dataset = pd.read_csv("data/imdb_test.txt", names=['txt'])
 train_dataset[['sentiment', 'txt']] = train_dataset["sentiment"].str.split(" ", 1, expand=True)
 train_dataset["txt"] = train_dataset["txt"]
@@ -47,7 +47,7 @@ action_with_arg2 = partial(showplot, train_dataset)
 stopset = set(stopwords.words('english'))
 
 # SECTION TO ADD STOPSET
-# stopset.add("something")
+stopset.add("something")
 
 # set the vectorizer
 vectorizer = TfidfVectorizer(use_idf=True, smooth_idf=True, lowercase=True, strip_accents='ascii', stop_words=stopset,
