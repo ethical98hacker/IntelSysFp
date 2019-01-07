@@ -18,8 +18,12 @@ from nltk.tokenize import word_tokenize
 stop_words = set(stopwords.words('english'))
 filtered_sentence = []
 
+# train data_set that has been modified, example: user said that interesting is a positive word but it predicted wrong
+# so user can add the data to review.txt and uncomment this code
+# train_dataset = pd.read_csv("data/review.txt", names=['sentiment'], encoding = "ISO-8859-1")
+
 # read data from files
-train_dataset = pd.read_csv("data/imdb_train.txt", names=['sentiment'])
+train_dataset = pd.read_csv("data/imdb_train.txt", names=['sentiment'])  # comment this if you want to use modified data
 train_dataset[['sentiment', 'txt']] = train_dataset["sentiment"].str.split(" ", 1, expand=True)
 train_dataset["txt"] = train_dataset["txt"]
 
